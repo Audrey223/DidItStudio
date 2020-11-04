@@ -1,1 +1,2 @@
-# DiditStudio
+# DidItStudio
+Portfolio en ligne

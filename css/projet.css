@@ -100,22 +100,13 @@ padding: 2em;
 
 }
 .retour{
-
 margin-left: 45%;
 margin-right: 45%;
 background-color: rgba(255,255, 255, 1);
-
 color: black;
 border-radius: 2em;
 }
-  /*
-.retour:hover{
-    background-color: rgba(255,255, 255, 1);
 
-    color: black;
-    border-radius: 2em;
-  }
-*/
 .photos{
   margin-top: 0;
   margin-bottom: 3em;
@@ -147,20 +138,8 @@ h1 a{
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
 }
-h5{
-  letter-spacing: 0.62em;
-  font-size: 0.5em;
-	color: blue;
-	font-weight: bold;
-	font-family: 'Orbitron', sans-serif;
-}
-h6{
 
-  font-size: 0.7em;
-	color: grey;
-	font-weight: lighter;
-	font-family: 'Montserrat', sans-serif;
-}
+
 h2{
   font-size: 3.5em;
 	color: white;
@@ -175,9 +154,30 @@ h3{  font-weight: bold;
   font-size: 2em;
 	color: white;
 	font-family: 'Montserrat', sans-serif;
-  line-height:0;
 }
 
+h4{
+  font-size: 0.8em;
+	color: white;
+  font-weight: lighter;
+	font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h5{
+  letter-spacing: 0.62em;
+  font-size: 0.5em;
+	color: blue;
+	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
+}
+h6{
+
+  font-size: 0.7em;
+	color: grey;
+	font-weight: lighter;
+	font-family: 'Montserrat', sans-serif;
+}
 
 p{
   font-size: 1em;
@@ -196,8 +196,69 @@ justify-content:center;
 align-items: center;
 margin: 0;
 }
-
-
 .bouton{
   margin-bottom: 3em;
+}
+
+.contact{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.description{
+  margin-left: 3em;
+}
+header{
+
+	height: 10vh;
+	margin: 2em;
+	line-height: 0.5em;
+}
+
+.travail-graphique img{
+margin-top: 1em;
+margin-right: 1em;
+  height: 2em;
+}
+
+.travail-graphique{
+  display: flex;
+  justify-content: center;
+}
+#foot{
+  display: flex;
+  height: 3em;
+align-items: center;
+margin: 0 auto;
+justify-content: center;}
+li{
+  margin-left: 2em;
+  margin-right: 2em;
+}
+footer{
+  margin-top: 5em;
+}
+.moi img{
+  max-height: 15em;
+}
+.contact1{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#picto img{
+  max-height: 3em;
+}
+#contactmoi{
+  display: flex;
+  justify-content: center;
+}
+.ou{
+  margin: 3em;
+}
+.interieur{
+  padding: 4.5em;
+}
+
 }
