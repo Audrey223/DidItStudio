@@ -8,57 +8,32 @@ header {
   top: 0;
   margin: 0;
 }
-.fleche{
-  max-height: 2em;
-  max-width: 50px;
-  display: block;
-  margin: 0 auto;
-  animation: fleche 2s linear forwards;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  transform-origin: bottom;
-  opacity: 0;
-  padding-bottom: 1.5em;
-
-}
-
-@keyframes fleche {
-
-  0% {
-    transform: scale(0.5);
-
-    opacity: 0;
-  }
-
-  80% {
-  transform: scale(1);
-    opacity: 1;
-  }
-}
-#nav2 {
-  margin: auto 0;
-  border: solid 0.5px black;
-  margin-top: 35em;
+a,h5{
   color: black;
-  background-color: white;
-  opacity: 1;
 }
-#nav2:hover {
-  border: solid 0.5px blue;
-  color: blue;
+.centrer{
+  margin: 0 auto;
+  display: block;
+text-align: center;
 }
 
-#nav2 a {
-  margin: 0 20px;
-  text-decoration: none;
-color:black;
+#nav2 {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  padding-left: 4em;
+  padding-right: 4em;
+border: solid 0.5px black;
+  color: black;
+
 }
-#nav2 a:hover {
-  display: inline-block;
-  margin: 0 20px;
-  text-decoration: none;
-color:blue;
+
+#nav2:hover {
+
+border: solid 0.5px blue;
+  color: blue;
+
 }
+
 
 footer {
   padding-inline-start: 60px;
@@ -68,31 +43,28 @@ h2 {
   font-size: 1em;
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
-  padding-left: 4em;
-  padding-right: 4em;
+
   text-decoration: none;
 
 }
-}
 
-#nav {
-  padding: 0;
-  margin: 0;
-  margin-top: 20px;
-  text-align: center;
-}
 
-#nav li {
+li {
   display: inline;
   list-style: none;
 }
 
-#nav a {
+li, a {
   display: inline-block;
   margin: 0 20px;
   text-decoration: none;
-
   color: black;
+}
+li, a:hover {
+  display: inline-block;
+  margin: 0 20px;
+  text-decoration: none;
+  color: blue;
 }
 
 h1 {
@@ -104,7 +76,6 @@ h1 {
 
 img {
   width: 15px;
-
 }
 
 img.phone {
@@ -112,16 +83,16 @@ img.phone {
 }
 
 main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 90vh;
 }
 
 svg {
-min-height: 60em;
-min-width: 60em;
-padding-top: 5em;
+  display: block;
+  margin: 0 auto ;
+  padding-top: 20vh;
+  padding-bottom: 5vh;
+max-width: 60%;
+
 }
 
 path {
@@ -129,10 +100,8 @@ path {
   animation: fyll 13s linear forwards;
   animation-delay: 1.5s;
   animation-iteration-count: 1;
-  stroke-width: 0.5;
-  stroke-linejoin: round;
-  stroke: black;
-  transform-origin: center;
+  stroke-width: 0.7;
+  stroke: black
 }
 @keyframes fyll {
 
@@ -146,20 +115,40 @@ path {
   }
 
   75% {
-
     fill: black;
   }
   100%{
     fill:black    ;
   }
 }
+
 body {
-
   background-color: white;
-  margin: 0;
-
 }
 
+.point {
+  animation: opa 2s linear forwards;
+  animation-delay: 2s;
+  opacity: 0;
+  fill:transparent;
+  animation-iteration-count: infinite;
+  fill:none;
+}
+@keyframes opa {
+  25% {
+    opacity: 0;
+    fill:transparent;
+  }
+
+  75% {
+    opacity: 1;
+    fill:black;
+  }
+  100% {
+    opacity: 0;
+    fill:transparent;
+  }
+}
 
 .diditstudio {
   stroke-dasharray: 2000;

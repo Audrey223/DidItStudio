@@ -182,6 +182,7 @@
 					close: this.DOM.el.querySelector('.menu > .menu__toggle > .menu__toggle-inner--close')
 				}
 			};
+      
 			this.DOM.factsContainer = this.DOM.el.querySelector('.facts');
 			this.DOM.factsCtrls = {
 				toggle: this.DOM.factsContainer.querySelector('.facts__toggle'),

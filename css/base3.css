@@ -26,7 +26,12 @@ html{line-height:1.1;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
   animation-iteration-count: 1;
 opacity: 0;
 }*/
+.opacity{
+  animation: opacity 1s linear forwards;
+  opacity: 0;
+  animation-iteration-count: 1;
 
+}
 @keyframes opacity {
 
   0% {
@@ -99,6 +104,7 @@ h4 span{
 }
 hr{
 height: 1px;
+
 }
 body {
 	font-family: "Montserrat", sans-serif;
@@ -298,33 +304,20 @@ button:focus {
 	opacity: 0;
 }
 
-.menu__item2 {
-	font-size: 1rem;
-	margin: 0 0 1.5rem;
-	font-weight: normal;
-	opacity: 1;
-}
 
 .menu--open .menu__item {
 	pointer-events: auto;
 }
-.menu--open .menu__item2 {
-	pointer-events: auto;
-}
+
 
 .menu__item-link {
-	color: var(--color-menu-item);
-}
-.menu__item2-link {
 	color: var(--color-menu-item);
 }
 
 .menu__item-link:hover {
 	color: var(--color-menu-item-hover);
 }
-.menu__item2-link:hover {
-	color: var(--color-menu-item-hover);
-}
+
 
 .sections__index,
 .sections__nav {
@@ -456,6 +449,7 @@ opacity: 0.4;
 .section__facts-title {
 	font-size: 1em;
 	margin: 0 0 0.5rem;
+  font-weight: lighter;
 }
 
 .section__facts-detail {
@@ -796,4 +790,8 @@ border: black solid 1px;
 		border: 2px solid;
 		padding: 0.5rem;
 	}
+.logo{
+  width: 100%;
+  display:run-in;
+  padding-bottom: 4em;
 }
