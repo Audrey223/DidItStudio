@@ -4,8 +4,8 @@
      src: url("fonts/Messapia-Bold.otf");
 }
 @font-face{
-     font-family: "ortica-light.otf";
-     src: url("fonts/ortica-light.otf");
+     font-family: "ortica-light.woff";
+     src: url("fonts/ortica-light.woff");
 }
 @font-face{
      font-family: "ortica-bold.otf";
@@ -88,7 +88,7 @@ h4 a span{
 
 }
 h7{
-	font-family: "ortica-light.otf"
+	font-family: "ortica-light.woff"
 }
 h4 span{
 	line-height: 2em;
